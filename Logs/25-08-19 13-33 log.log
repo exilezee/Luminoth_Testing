@@ -1,0 +1,9 @@
+INFO:root:
+
+2019-08-25 13:33:40.304346 New Session
+INFO:root:Executing main test.
+INFO:root:Executing image test number 1:
+INFO:root:Run time is 2.817999, the threshold is 1.0
+INFO:root:Found 6 persons out of 5.
+INFO:root:Found 4 bicycles out of 4.
+INFO:root:Mean accuracy is 0.9, the threshold is 0.9.

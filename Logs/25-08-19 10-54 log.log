@@ -1,0 +1,110 @@
+INFO:root:
+
+2019-08-25 10:54:31.427396 New Session
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\sonnet\python\custom_getters\restore_initializer.py:27: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\datasets\object_detection_dataset.py:41: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\datasets\object_detection_dataset.py:49: The name tf.VarLenFeature is deprecated. Please use tf.io.VarLenFeature instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\hooks\image_vis_hook.py:7: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\training.py:7: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\training.py:8: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\training.py:9: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\training.py:10: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+INFO:root:Executing main test.
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\config.py:37: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\predicting.py:25: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\datasets\datasets.py:18: The name tf.logging.warning is deprecated. Please use tf.compat.v1.logging.warning instead.
+
+WARNING:tensorflow:Dataset `tfrecord` is deprecated. Use `object_detection` instead.
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\sonnet\python\modules\base.py:212: The name tf.make_template is deprecated. Please use tf.compat.v1.make_template instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\predicting.py:39: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\image.py:119: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\image.py:127: The name tf.image.resize_images is deprecated. Please use tf.image.resize instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\image.py:128: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\models\ssd\feature_extractor.py:61: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\models\ssd\feature_extractor.py:92: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\sonnet\python\modules\conv.py:222: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\sonnet\python\modules\conv.py:227: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\tensorflow\python\ops\array_ops.py:1354: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\models\ssd\proposal.py:107: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\tensorflow\python\training\saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from C:\Users\exilezee\.luminoth\checkpoints\aad6912e94d9\model.ckpt-2844549
+WARNING:tensorflow:From C:\Users\exilezee\Anaconda\envs\Luminoth_Testing3\lib\site-packages\luminoth\utils\predicting.py:63: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Loaded checkpoint.
+INFO:root:Executing image test number 1:
+INFO:root:Run time is 2.873998, the threshold is 1.0
+INFO:root:Found 6 persons out of 5.
+INFO:root:Found 4 bicycles out of 4.
+INFO:root:Mean accuracy is 0.9, the threshold is 0.9.
+INFO:root:Mean probability is 0.93, the threshold is 0.9.
+WARNING:root:The test has passed successfully.
+INFO:root:Executing image test number 2:
+INFO:root:Run time is 0.087999, the threshold is 1.0
+INFO:root:Found 7 persons out of 10.
+INFO:root:Found 1 bicycles out of 2.
+INFO:root:Found 4 cars out of 4.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0.73, the threshold is 0.9.
+INFO:root:Mean probability is 0.91, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 3:
+INFO:root:Run time is 0.088997, the threshold is 1.0
+INFO:root:Found 3 cars out of 7.
+INFO:root:Mean accuracy is 0.43, the threshold is 0.9.
+INFO:root:Mean probability is 1.0, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 4:
+INFO:root:Run time is 0.087999, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0, the threshold is 0.9.
+INFO:root:Mean probability is 0.95, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 5:
+INFO:root:Run time is 0.095001, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0, the threshold is 0.9.
+INFO:root:Mean probability is 0.98, the threshold is 0.9.
+WARNING:root:The test has failed.
+WARNING:root:The total mean accuracy is 0.41238095238095235 and is lower than the 0.9 threshold.
+WARNING:root:The total mean probability is 0.9513337948717948 and is higher than the 0.9 threshold.
+WARNING:root:The false positive rate is 0.6 and is higher than the 0.5 threshold.
+WARNING:root:The total mean runtime is 0.6467988 and is lower than the 1.0 threshold.
+WARNING:root:Test has failed.

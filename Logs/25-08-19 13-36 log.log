@@ -1,0 +1,45 @@
+INFO:root:
+
+2019-08-25 13:36:37.651658 New Session
+INFO:root:Executing main test.
+INFO:root:Executing image test number 1:
+INFO:root:Run time is 2.835999, the threshold is 1.0
+INFO:root:Found 6 persons out of 5.
+INFO:root:Found 4 bicycles out of 4.
+INFO:root:Mean accuracy is 0.9, the threshold is 0.9.
+INFO:root:Mean probability is 0.93, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 2:
+INFO:root:Run time is 0.086998, the threshold is 1.0
+INFO:root:Found 7 persons out of 10.
+INFO:root:Found 1 bicycles out of 2.
+INFO:root:Found 4 cars out of 4.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0.73, the threshold is 0.9.
+INFO:root:Mean probability is 0.91, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 3:
+INFO:root:Run time is 0.09, the threshold is 1.0
+INFO:root:Found 3 cars out of 7.
+INFO:root:Mean accuracy is 0.43, the threshold is 0.9.
+INFO:root:Mean probability is 1.0, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 4:
+INFO:root:Run time is 0.086002, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0, the threshold is 0.9.
+INFO:root:Mean probability is 0.95, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 5:
+INFO:root:Run time is 0.086001, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive was detected.
+INFO:root:Mean accuracy is 0, the threshold is 0.9.
+INFO:root:Mean probability is 0.98, the threshold is 0.9.
+WARNING:root:The test has failed.
+WARNING:root:The total mean accuracy is 0.41 and is lower than the 0.9 threshold.
+WARNING:root:The total mean probability is 0.95 and is higher than the 0.9 threshold.
+WARNING:root:The false positive rate is 0.6 and is higher than the 0.5 threshold.
+WARNING:root:The total mean runtime is 0.637 and is lower than the 1.0 threshold.
+WARNING:root:Test has failed.

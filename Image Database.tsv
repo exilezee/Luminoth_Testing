@@ -1,0 +1,5 @@
+image1.jpg	{'person': 5, 'bicycle': 4}
+image2.jpg	{'person': 10, 'bicycle': 2, 'car': 4}
+image3.jpg	{'car': 7}
+image4.jpg	{'truck': 1}
+image5.jpg	{'truck': 1}

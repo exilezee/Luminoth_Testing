@@ -1,0 +1,50 @@
+INFO:root:
+
+2019-08-28 18:18:48.183552 New Session
+INFO:root:Executing main test.
+INFO:root:Executing image test number 1:
+INFO:root:Run time is 2.689999, the threshold is 1.0
+INFO:root:Found 6 persons out of 5.
+INFO:root:Found 4 bicycles out of 4.
+INFO:root:Recall is 1.0, the threshold is 0.9.
+INFO:root:Precision is 0.9, the threshold is 0.5.
+INFO:root:Mean probability is 0.93, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 2:
+INFO:root:Run time is 0.082, the threshold is 1.0
+INFO:root:Found 7 persons out of 10.
+INFO:root:Found 1 bicycles out of 2.
+INFO:root:Found 4 cars out of 4.
+WARNING:root:False positive label was detected.
+INFO:root:Recall is 0.75, the threshold is 0.9.
+INFO:root:Precision is 0.92, the threshold is 0.5.
+INFO:root:Mean probability is 0.91, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 3:
+INFO:root:Run time is 0.08, the threshold is 1.0
+INFO:root:Found 3 cars out of 7.
+INFO:root:Recall is 0.43, the threshold is 0.9.
+INFO:root:Precision is 1.0, the threshold is 0.5.
+INFO:root:Mean probability is 1.0, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 4:
+INFO:root:Run time is 0.082001, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive label was detected.
+INFO:root:Recall is 0.0, the threshold is 0.9.
+INFO:root:Precision is 0.0, the threshold is 0.5.
+INFO:root:Mean probability is 0.95, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:Executing image test number 5:
+INFO:root:Run time is 0.078001, the threshold is 1.0
+WARNING:root:Found 0 trucks out of 1.
+WARNING:root:False positive label was detected.
+INFO:root:Recall is 0.0, the threshold is 0.9.
+INFO:root:Precision is 0.0, the threshold is 0.5.
+INFO:root:Mean probability is 0.98, the threshold is 0.9.
+WARNING:root:The test has failed.
+INFO:root:The total mean recall is 0.44 and is lower than the 0.9 threshold.
+INFO:root:The total mean probability is 0.95 and is higher than the 0.9 threshold.
+INFO:root:The precision is 0.56 and is higher than the 0.5 threshold.
+INFO:root:The total mean runtime is 0.6024002 and is lower than the 1.0 threshold.
+WARNING:root:Test has failed.
